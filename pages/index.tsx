@@ -1,12 +1,30 @@
 import Head from 'next/head'
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Create Next App</title>
-          <h1 className="text-blue-800">Lest build Portfolio</h1>
       </Head>
+
+        <Header />
+
+        {/* Hero */}
+        <section id="hero">
+            <Hero />
+        </section>
+
+        {/* About */}
+
+        {/* Experience */}
+
+        {/* Skills */}
+
+        {/* Projects */}
+
+        {/* Contact Me */}
     </div>
   );
 };
